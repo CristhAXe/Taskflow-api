@@ -1,7 +1,9 @@
-echo "# Taskflow-api" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CristhAXe/Taskflow-api.git
-git push -u origin main
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+alembic
